@@ -154,10 +154,11 @@ input::placeholder {
     cursor: pointer;
 }
 
-.menu p {
+.menu a {
     font-size: 16px;
     font-weight: bold;
     margin-right: 4px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .down {
@@ -199,3 +200,69 @@ input::placeholder {
 .cart span:active {
     display: none;
 }
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+    width: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+ul li {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+li ul {
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 174px;
+    height: 154px;
+	position: absolute;
+    display: none;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000033;
+    top:30px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #000000;
+    padding: 5px;
+    text-align: center;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.drop {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    right: -20px;
+}
+.drop li a {
+    font-size: 15px;
+}
+
+.bold {
+    font-weight: bold;
+}
+    
+li:hover ul { 
+    display: flex; 
+}
+
