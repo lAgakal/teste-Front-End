@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    width: 75%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header {
+    width: 100vw;
+    height: 32px;
+    background: #f1f1f1 0% 0% no-repeat padding-box; 
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    height: 100%;
+    width: 75%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phone {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 40%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.whats {
+    width: 14px;
+    height: 14px;
+}
+
+.phoneImg {
+    width: 21px;
+    height: 21px;
+}
+
+.phone-container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.phone-container p {
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none;
+    color: #000
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 110px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.logo {
+    width: 139px;
+    height: 50px;
+    opacity: 1;
+}
+
+.input {
+    height: 50px;
+    width: 35%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #DFDFDF;
+    border-radius: 5px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+input {
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 45px;
+    text-indent: 10px;
+}
+
+input::placeholder {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font: normal normal normal 14px/18px Open Sans;
+    text-align: left;
+}
+
+.search_btn {
+    width: 12px;
+    height: 12px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.menu {
+    width: 7%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.down {
+    width: 7px;
+    height: 5px;
+}
+
+.bag {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
