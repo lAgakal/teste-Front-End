@@ -57,6 +57,21 @@ p {
     height: 21px;
 }
 
+.whats-container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 30%;
+    justify-content: center;
+}
+
+.whats-container span {
+    white-space: nowrap;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
 .phone-container {
     display: flex;
     height: 100%;
@@ -69,7 +84,6 @@ p {
     white-space: nowrap;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
-    margin-left: 3px;
 }
 
 a {
