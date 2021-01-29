@@ -156,7 +156,6 @@ input::placeholder {
 
 .menu a {
     font-size: 16px;
-    font-weight: bold;
     margin-right: 4px;
     font-family: 'Open Sans', sans-serif;
 }
@@ -164,6 +163,7 @@ input::placeholder {
 .down {
     width: 7px;
     height: 5px;
+    left: 10px;
 }
 
 .bag {
@@ -209,7 +209,6 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
 }
 
 ul li {
@@ -217,7 +216,6 @@ ul li {
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
 }
 
 li ul {
@@ -261,8 +259,15 @@ ul {
 .bold {
     font-weight: bold;
 }
+
+.enter {
+    font-weight: bold;
+}
     
 li:hover ul { 
     display: flex; 
 }
+
+
+
 
