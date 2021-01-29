@@ -47,14 +47,16 @@ p {
     flex-wrap: wrap;
 }
 
-.whats {
+.whatsImg {
     width: 14px;
     height: 14px;
+    cursor: pointer;
 }
 
 .phoneImg {
     width: 21px;
     height: 21px;
+    cursor: pointer;
 }
 
 .phone-container {
