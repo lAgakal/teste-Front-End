@@ -4,7 +4,7 @@ body {
     padding: 0;
     background: #f5f5f5;
 }
-
+ 
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
@@ -62,11 +62,14 @@ p {
     height: 100%;
     align-items: center;
     width: 30%;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.phone-container p {
+.phone-container span {
     white-space: nowrap;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    margin-left: 3px;
 }
 
 a {
