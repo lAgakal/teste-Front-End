@@ -57,26 +57,11 @@ p {
     height: 21px;
 }
 
-.whats-container {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    width: 30%;
-    justify-content: center;
-}
-
-.whats-container span {
-    white-space: nowrap;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-    margin-left: 10px;
-}
-
 .phone-container {
     display: flex;
     height: 100%;
     align-items: center;
-    width: 30%;
+    width: 50%;
     justify-content: center;
 }
 
@@ -84,6 +69,13 @@ p {
     white-space: nowrap;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
+}
+
+.phone-container:last-child span {
+    white-space: nowrap;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    margin-left: 10px;
 }
 
 a {
@@ -152,7 +144,7 @@ input::placeholder {
 .menu {
     width: 7%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     cursor: pointer;
 }
@@ -160,6 +152,7 @@ input::placeholder {
 .menu p {
     font-size: 16px;
     font-weight: bold;
+    margin-right: 4px;
 }
 
 .down {
